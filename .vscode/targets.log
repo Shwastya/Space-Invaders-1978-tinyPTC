@@ -1,0 +1,446 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No hay ninguna regla para construir el objetivo 'all'.  Alto.
+ 
+# GNU Make 4.2.1
+# Este programa fue construido para x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# Licencia GPLv3+: GNU GPL versión 3 o posterior <http://gnu.org/licenses/gpl.html>
+# Este es software libre: cualquiera es libre para redistribuirlo y modificarlo.
+# No existe GARANTÍA ALGUNA, hasta los límites permitidos por las leyes aplicables.
+
+# Base de datos del Make, mostrada en Mon Mar 29 12:05:04 2021
+
+# Variables
+
+# directiva 'override'
+GNUMAKEFLAGS := 
+# automática/o
+<D = $(patsubst %/,%,$(dir $<))
+# automática/o
+?F = $(notdir $?)
+# entorno
+DESKTOP_SESSION = ubuntu
+# por defecto
+.SHELLFLAGS := -c
+# makefile (de 'Makefile', línea 26):
+OBJ := obj
+# entorno
+XDG_SESSION_CLASS = user
+# makefile (de 'Makefile', línea 25):
+SRC := src
+# entorno
+SNAP_COMMON = /var/snap/code/common
+# entorno
+XDG_SESSION_TYPE = x11
+# entorno
+VSCODE_LOG_NATIVE = false
+# automática/o
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (de 'Makefile', línea 23):
+C := gcc 
+# automática/o
+@D = $(patsubst %/,%,$(dir $@))
+# entorno
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# entorno
+GDMSESSION = ubuntu
+# entorno
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/jose/Escritorio/code/CPlusPlus/RetromanProfe/tinyPTC-SpaceInvaders/SpaceInvaders-tinyPTC
+# makefile
+SHELL = /bin/sh
+# entorno
+SNAP_DATA = /var/snap/code/59
+# entorno
+VTE_VERSION = 6003
+# entorno
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{},"_languagePackSupport":true}
+# entorno
+JOURNAL_STREAM = 8:43926
+# makefile (de 'Makefile', línea 20):
+CFLAGS := -Wall -pedantic 
+# entorno
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# entorno
+SNAP_INSTANCE_NAME = code
+# entorno
+SNAP_ARCH = amd64
+# makefile (de 'Makefile', línea 1):
+MAKEFILE_LIST :=  Makefile
+# automática/o
+@F = $(notdir $@)
+# entorno
+IM_CONFIG_PHASE = 1
+# entorno
+USERNAME = jose
+# entorno
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# entorno
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# entorno
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=ab2fb0714adcaf992506701860619379
+# entorno
+VSCODE_VERBOSE_LOGGING = true
+# makefile (de 'Makefile', línea 39):
+ALLCS := 
+# entorno
+MANAGERPID = 1913
+# entorno
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (de 'Makefile', línea 19):
+APP := game
+# entorno
+GSETTINGS_SCHEMA_DIR = /snap/code/59/usr/share/glib-2.0/schemas
+# por defecto
+MAKE_HOST := x86_64-pc-linux-gnu
+# entorno
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# entorno
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# entorno
+SESSION_MANAGER = local/jose-Prog-Ide:@/tmp/.ICE-unix/2134,unix/jose-Prog-Ide:/tmp/.ICE-unix/2134
+# entorno
+XDG_RUNTIME_DIR = /run/user/1000
+# entorno
+GDK_PIXBUF_MODULE_FILE = /home/jose/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# entorno
+SNAP = /snap/code/59
+# entorno
+SNAP_VERSION = 2b9aebd5
+# makefile (de 'Makefile', línea 34):
+CCFLAGS := -Wall -pedantic  -std=c++17 -O3
+# entorno
+XDG_MENU_PREFIX = gnome-
+# entorno
+VSCODE_LOG_STACK = false
+# entorno
+DISABLE_WAYLAND = 1
+# entorno
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=b3a06466-12c9-4277-833d-7924f5a9b322&iid=b3a06466-12c9-4277-833d-7924f5a9b322&sid=b3a06466-12c9-4277-833d-7924f5a9b322","uploadToServer":true}
+# entorno
+INVOCATION_ID = e619022b4aba41d9a6130861034bee8c
+# entorno
+GDK_PIXBUF_MODULEDIR = /snap/code/59/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# por defecto
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# entorno
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# entorno
+XDG_SESSION_DESKTOP = ubuntu
+# entorno
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# automática/o
+%F = $(notdir $%)
+# entorno
+DISPLAY = :1
+# entorno
+VSCODE_PIPE_LOGGING = true
+# entorno
+SNAP_INSTANCE_KEY = 
+# entorno
+PWD = /home/jose/Escritorio/code/CPlusPlus/RetromanProfe/tinyPTC-SpaceInvaders/SpaceInvaders-tinyPTC
+# por defecto
+.LOADED := 
+# makefile (de 'Makefile', línea 38):
+ALLCPPS := src/main.cpp
+# entorno
+SSH_AGENT_PID = 2092
+# entorno
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# entorno
+GTK_MODULES = gail:atk-bridge
+# entorno
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# entorno
+HOME = /home/jose
+# entorno
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# entorno
+VSCODE_CLI = 1
+# entorno
+LOGNAME = jose
+# entorno
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# entorno
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# entorno
+SNAP_CONTEXT = Tz9MjZWoluM7TfwgeGbCgJoL4G05DbH0dlPNlgYenFqxZ666o_Er
+# makefile (de 'Makefile', línea 4):
+define COMPILE
+$(2) : $(3) $(4)
+	$(1) -c -o $(2) $(3) $(5)
+endef
+# entorno
+SNAP_USER_COMMON = /home/jose/snap/code/common
+# entorno
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# entorno
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automática/o
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (de 'Makefile', línea 24):
+MKDIR := mkdir -p 
+# entorno
+MAKELEVEL := 0
+# entorno
+SNAP_REAL_HOME = /home/jose
+# entorno
+COLORTERM = truecolor
+# por defecto
+MAKE = $(MAKE_COMMAND)
+# por defecto
+MAKECMDGOALS := all
+# entorno
+QT_IM_MODULE = ibus
+# entorno
+SNAP_USER_DATA = /home/jose/snap/code/59
+# entorno
+SHLVL = 1
+# makefile (de 'Makefile', línea 22):
+CC := g++ 
+# entorno
+GNOME_SHELL_SESSION_MODE = ubuntu
+# entorno
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-cffa2227-a026-47d3-b740-4d652c8684ec.sock
+# por defecto
+MAKE_VERSION := 4.2.1
+# entorno
+USER = jose
+# entorno
+SNAP_REVISION = 59
+# makefile
+.DEFAULT_GOAL := game
+# entorno
+XDG_CURRENT_DESKTOP = Unity
+# automática/o
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (de 'Makefile', línea 29):
+INCDIRS := -Isrc -Ilib
+# por defecto
+MAKE_COMMAND := make
+# entorno
+VSCODE_NODE_CACHED_DATA_DIR = /home/jose/.config/Code/CachedData/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8
+# makefile (de 'Makefile', línea 27):
+LIBDIR := lib
+# por defecto
+.VARIABLES := 
+# automática/o
+*F = $(notdir $*)
+# entorno
+VSCODE_IPC_HOOK = /run/user/1000/vscode-ca76bd5f-1.54.3-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# entorno
+MFLAGS = -pqrR
+# automática/o
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (de 'Makefile', línea 40):
+ALLOBJ := obj/main.o
+# entorno
+BREAKPAD_DUMP_LOCATION = /home/jose/.config/Code/exthost Crash Reports
+# automática/o
++D = $(patsubst %/,%,$(dir $+))
+# automática/o
++F = $(notdir $+)
+# entorno
+QT_ACCESSIBILITY = 1
+# entorno
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# directiva 'override'
+.SHELLSTATUS := 0
+# por defecto
+MAKEFILES := 
+# entorno
+SNAP_COOKIE = Tz9MjZWoluM7TfwgeGbCgJoL4G05DbH0dlPNlgYenFqxZ666o_Er
+# automática/o
+<F = $(notdir $<)
+# entorno
+ELECTRON_RUN_AS_NODE = 1
+# makefile (de 'Makefile', línea 13):
+C2H = $(patsubst %.c,%.h,$(patsubst %.cpp,%.hpp,$(1)))
+# entorno
+SNAP_NAME = code
+# makefile (de 'Makefile', línea 42):
+OBJSUBDIRS := obj
+# entorno
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# entorno
+DBUS_STARTER_BUS_TYPE = session
+# makefile (de 'Makefile', línea 28):
+LIBS := lib/picoPNG/libpicopng.a lib/tinyPTC/libtinyptc.a -lX11
+# entorno
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/df86f171_75e6_458c_9879_be934daad3c4
+# automática/o
+^F = $(notdir $^)
+# entorno
+GNOME_TERMINAL_SERVICE = :1.311
+# por defecto
+SUFFIXES := 
+# entorno
+SNAP_REEXEC = 
+# entorno
+CHROME_DESKTOP = code-url-handler.desktop
+# entorno
+WINDOWPATH = 2
+# makefile (de 'Makefile', línea 9):
+C2O = $(patsubst %.c,%.o,$(patsubst %.cpp,%.o,$(patsubst $(SRC)%,$(OBJ)%,$(1))))
+ 
+# por defecto
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# por defecto
+.RECIPEPREFIX := 
+# makefile (de 'Makefile', línea 41):
+SUBDIRS := src
+# entorno
+LANG = es_ES.UTF-8
+# entorno
+TERM = xterm-256color
+# entorno
+VSCODE_PID = 10125
+# entorno
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=ab2fb0714adcaf992506701860619379
+# estadísticas del conjunto de variables de la tabla «hash»:
+# Carga=142/1024=14%, Rehash=0, Colisiones=30/213=14%
+
+# Valores de variables específicas al patrón
+
+# No hay valores de variables específicas al patrón.
+
+# Directorios
+
+# . (dispositivo 2052, nodo-i 11141366): 12 archivos, no imposibilidades.
+
+# 12 archivos, no imposibilidades en 1 directorios.
+
+# Reglas implícitas.
+
+# No hay reglas implícitas.
+
+# Archivos
+
+# No es un objetivo:
+all:
+#  Objetivo en línea de instrucciones.
+#  La búsqueda de reglas implícitas ha sido efectuada.
+#  El archivo no existe.
+#  El archivo ha sido actualizado.
+
+.PHONY: info libs libs-clean libs-cleanall
+#  La búsqueda de reglas implícitas ha sido efectuada.
+#  La fecha de modificación no se comprobó.
+#  El archivo ha sido actualizado.
+
+libs-clean:
+#  objetivo falso (dependencia de .PHONY).
+#  La búsqueda de reglas implícitas ha sido efectuada.
+#  El archivo no existe.
+#  El archivo ha sido actualizado.
+#  las instrucciones para ejecutar (de 'Makefile', linea 76):
+	$(MAKE) -C $(LIBDIR) clean
+
+obj/main.o: src/main.cpp src/main.hpp
+#  La búsqueda de reglas implícitas ha sido efectuada.
+#  La fecha de modificación no se comprobó.
+#  El archivo ha sido actualizado.
+#  las instrucciones para ejecutar (de 'Makefile', linea 52):
+	g++  -c -o obj/main.o src/main.cpp -Wall -pedantic  -std=c++17 -O3 -Isrc -Ilib
+
+# No es un objetivo:
+Makefile:
+#  La búsqueda de reglas implícitas ha sido efectuada.
+#  Última modificación 2021-03-29 00:00:32.007230144
+#  El archivo ha sido actualizado.
+#  Actualizado con éxito.
+
+libs:
+#  objetivo falso (dependencia de .PHONY).
+#  La búsqueda de reglas implícitas ha sido efectuada.
+#  El archivo no existe.
+#  El archivo ha sido actualizado.
+#  las instrucciones para ejecutar (de 'Makefile', linea 74):
+	$(MAKE) -C $(LIBDIR)
+
+libs-cleanall:
+#  objetivo falso (dependencia de .PHONY).
+#  La búsqueda de reglas implícitas ha sido efectuada.
+#  El archivo no existe.
+#  El archivo ha sido actualizado.
+#  las instrucciones para ejecutar (de 'Makefile', linea 78):
+	$(MAKE) -C $(LIBDIR) cleanall
+
+obj:
+#  La búsqueda de reglas implícitas ha sido efectuada.
+#  La fecha de modificación no se comprobó.
+#  El archivo ha sido actualizado.
+#  las instrucciones para ejecutar (de 'Makefile', linea 63):
+	$(MKDIR) $(OBJSUBDIRS)
+
+# No es un objetivo:
+.DEFAULT:
+#  La búsqueda de reglas implícitas ha sido efectuada.
+#  La fecha de modificación no se comprobó.
+#  El archivo ha sido actualizado.
+
+clean:
+#  La búsqueda de reglas implícitas ha sido efectuada.
+#  La fecha de modificación no se comprobó.
+#  El archivo ha sido actualizado.
+#  las instrucciones para ejecutar (de 'Makefile', linea 67):
+	$(RM) -r "./$(OBJ)"
+
+game: obj obj/main.o
+#  La búsqueda de reglas implícitas ha sido efectuada.
+#  La fecha de modificación no se comprobó.
+#  El archivo ha sido actualizado.
+#  las instrucciones para ejecutar (de 'Makefile', linea 48):
+	$(CC) -o $(APP) $(ALLOBJ) $(LIBS)
+
+# No es un objetivo:
+src/main.cpp:
+#  La búsqueda de reglas implícitas ha sido efectuada.
+#  La fecha de modificación no se comprobó.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+src/main.hpp:
+#  La búsqueda de reglas implícitas ha sido efectuada.
+#  La fecha de modificación no se comprobó.
+#  El archivo ha sido actualizado.
+
+cleanall: clean
+#  La búsqueda de reglas implícitas ha sido efectuada.
+#  La fecha de modificación no se comprobó.
+#  El archivo ha sido actualizado.
+#  las instrucciones para ejecutar (de 'Makefile', linea 70):
+	$(RM) "./$(APP)"
+
+info:
+#  objetivo falso (dependencia de .PHONY).
+#  La búsqueda de reglas implícitas ha sido efectuada.
+#  El archivo no existe.
+#  El archivo ha sido actualizado.
+#  las instrucciones para ejecutar (de 'Makefile', linea 56):
+	$(info $(SUBDIRS))
+	$(info $(OBJSUBDIRS))
+	$(info $(ALLCPPS))
+	$(info $(ALLCS))
+	$(info $(ALLCSOBJ))
+
+# estadísticas de la tabla «hash» de los archivos:
+# Carga=16/1024=2%, Rehash=0, Colisiones=0/41=0%
+# Rutas de búsqueda VPATH
+
+# No hay rutas de búsqueda 'vpath'.
+
+# No hay ruta de búsqueda general (variable 'VPATH').
+
+# «buffers» strcache: 1 (0) / cadenas = 27 / almacenamiento = 224 B / promedio = 8 B
+# «buffer» actual: tamaño = 8162 B / utilizado = 224 B / número = 27 / promedio = 8 B
+
+# rendimiento de strcache: búsquedas = 50 / coincidencias = 46%
+# estadísticas de la tabla «hash»:
+# Carga=27/8192=0%, Rehash=0, Colisiones=1/50=2%
+# Se termina la base de datos de Make en Mon Mar 29 12:05:04 2021
+
+ 
